@@ -2,7 +2,7 @@
 
 /**
  * Retrieves all tasks from the database, ordered by creation date in descending order.
- * @returns {Promise<Array>} An array of task objects.
+ * returns {Promise<Array>} An array of task objects.
  */
 const getTasks = async () => {
   const res = await db.query(
